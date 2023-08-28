@@ -1,21 +1,28 @@
-![BarraGit](https://github.com/Gandara247/gandara247/assets/120376565/00602970-43b6-4555-b548-00e87c512ad4)
-# hacker_rank_cubos_01
+## HackerRank
 
-<details>
-<summary>Índice</summary>
+  
 
-* [01- Purificação](#01--purificação)
-* [02- Abecedário](#02--abecedário)
-* [03- Cinco ou mais, um é grátis](#03--cinco-ou-mais-um-é-grátis)
-* [04- Carrossel](#04--carrossel)
-* [05- Perda mínima](#05--perda-mínima)
-* [06- Brasil com "P"](#06--brasil-com-p)
-* [07- Tiro ao Alvo](#07--tiro-ao-alvo)
-* [08- Brazilian Storm](#08--brazilian-storm)
-* [09- Forca](#09--forca)
-* [10- Pontos no campeonato](#10--pontos-no-campeonato)
+### índice
 
-</details>
+[[01- Purificação]]  
+
+[[02- Abecedário]]  
+
+[[03- Cinco ou mais, um é grátis]]  
+
+[[04- Carrossel]]  
+
+[[05-Perda mínima]]  
+
+[[06- Brasil com "P"]]  
+
+[[07-Tiro ao Alvo]]  
+
+[[08- Brazilian Storm]]  
+
+[[09- Forca]]  
+
+[[10-Pontos no campeonato]]  
 
   
 
@@ -51,7 +58,7 @@ A saída deverá ser sempre uma string representando o nome purificado sem os se
 
 ### My answer:
 
-```js
+```
 const stringCorrompida = "*Canis %lupus )familiaris";
 const arr = [stringCorrompida]
 let dadosPurificados = "";
@@ -92,7 +99,7 @@ Imprima na tela apenas um número inteiro contendo a quantidade de crianças que
 
 **Sample Input 0**
 
-```js
+```
 [
   {
     "letra": "m",
@@ -119,7 +126,7 @@ Imprima na tela apenas um número inteiro contendo a quantidade de crianças que
 
 ### My answer:
 
-```js
+```
 const palavras = [
     "mamao",
     "maca",
@@ -193,7 +200,7 @@ Imprima na tela apenas um número que representa o total que deve ser pago pelo 
 
 ### My answer:
 
-```js
+```
 const precos = [100, 500, 100];
 
 let pagar = 0;
@@ -255,49 +262,49 @@ A saída deverá ser sempre um número inteiro positivo entre 0 e 6 que indica o
 
 **Sample Input 0**
 
-```js
+```
 [">", ">", ">", "<", ">"]
 
 ```
 
 **Sample Output 0**
 
-```js
+```
 3
 
 ```
 
 **Sample Input 1**
 
-```js
+```
 [">"]
 
 ```
 
 **Sample Output 1**
 
-```js
+```
 1
 
 ```
 
 **Sample Input 2**
 
-```js
+```
 ["<"]
 
 ```
 
 **Sample Output 2**
 
-```js
+```
 6
 
 ```
 
 **Sample Input 3**
 
-```js
+```
 [">", ">", ">",">", ">", ">",">", ">", ">"]
 
 ```
@@ -313,7 +320,7 @@ A saída deverá ser sempre um número inteiro positivo entre 0 e 6 que indica o
 
 ### My answer:
 
-```js
+```
 const caso1 = [">", ">", ">", "<", ">"]; // tem que ser iqual a 3
 const caso2 = [">"];  // tem que ser iqual a 1
 const caso3 = ["<"];  // tem que ser iqual a 6
@@ -403,7 +410,7 @@ Letícia compra a casa no 2º ano em **preço = 10** e revende no 6º ano em **p
 
 ### My answer:
 
-```js
+```
 const precos = [5, 10, 3];
 
 let menorPrejuizo = Number.MAX_SAFE_INTEGER;
@@ -455,7 +462,7 @@ Caso não nenhuma palavra do array de `palavras` atenda aos requisitos, imprima 
 
 **Sample Input 0**
 
-```js
+```
 {
   "primeiraLetra": "c",
   "segundaLetra": "v",
@@ -470,14 +477,14 @@ Caso não nenhuma palavra do array de `palavras` atenda aos requisitos, imprima 
 
 **Sample Output 0**
 
-```js
+```
 NENHUMA
 
 ```
 
 **Sample Input 1**
 
-```js
+```
 {
   "primeiraLetra": "a",
   "segundaLetra": "v",
@@ -492,7 +499,7 @@ NENHUMA
 
 **Sample Output 1**
 
-```js
+```
 aveia
 ave
 
@@ -502,7 +509,7 @@ ave
 
 ### My answer:
 
-```js
+```
 const palavras = ["aveia", "manha", "ave"];
 
 const primeiraLetra = "a";
@@ -580,7 +587,7 @@ O competidor conseguiu 4 tiros acima de 70 pontos: 90, 80, 100 e 80 novamente.
 
 ### My answer:
 
-```js
+```
 const disparos = [0, 10, 50, 70, 80, 30];
 
 let aprovado = 0;
@@ -657,7 +664,7 @@ Uma nota 100 e uma 50 são descartadas, sobrando duas notas 100. A média dessas
 
 ### My answer:
 
-```js
+```
 const notas = [100, 100, 100, 20, 50, 30, 14, 100, 100, 100];
 
 let menor = notas[0];
@@ -717,7 +724,7 @@ A quantidade de vezes que o palpite **a** do jogador aparece na palavra **abelha
 
 ### My answer:
 
-```js
+```
 const palavra = "abelha"
 const palpite = "a"
 
@@ -763,7 +770,7 @@ Imprima na tela apenas um número representando a quantidade de pontos ganhos pe
 
 **Sample Input 0**
 
-```js
+```
 [
   "V",
   "E",
@@ -788,7 +795,7 @@ Como o time teve 2 vitórias (2x3) e dois empates (2x1), ele fica com 8 pontos (
 
 ### my answer:
 
-```js
+```
 const resultados = ["V", "E", "V", "E"];
 
 let vitoria = 0;
